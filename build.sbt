@@ -16,3 +16,5 @@ libraryDependencies ++= Seq(
 )
 
 run / fork := true
+
+enablePlugins(JavaAppPackaging)
